@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Perú: Entre Cambios, Poder y Memoria</title>
+<style>
+:root{--ink:#1f2937;--muted:#64748b;--paper:#fff;--bg:#f5f7fa;--accent:#8b1e1e;--accent2:#c9973e;--line:#e5e7eb}
+*{box-sizing:border-box} body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--ink);line-height:1.65}
+header{background:linear-gradient(135deg,#551414,#8b1e1e 55%,#b77b2a);color:#fff;padding:58px 7vw 48px}
+header .tag{letter-spacing:2px;font-size:.78rem;text-transform:uppercase;opacity:.85}
+header h1{font-family:Georgia,serif;font-size:clamp(2.2rem,5vw,4.4rem);line-height:1.05;margin:12px 0}
+header p{max-width:760px;font-size:1.08rem;opacity:.94}
+nav{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid var(--line);display:flex;overflow:auto;padding:0 5vw}
+nav button{border:0;background:none;padding:18px 16px;white-space:nowrap;font-weight:700;color:#475569;cursor:pointer}
+nav button.active,nav button:hover{color:var(--accent);box-shadow:inset 0 -3px var(--accent)}
+main{max-width:1100px;margin:auto;padding:34px 5vw 70px}
+.page{display:none}.page.active{display:block}
+.hero{background:#fff;border-radius:22px;padding:34px;box-shadow:0 8px 28px #0000000c;margin-bottom:28px}
+.hero h2{font-family:Georgia,serif;font-size:2.2rem;margin:0 0 10px;color:#5d1717}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:0 5px 18px #00000008}
+.card h3{margin-top:0;color:#6d1919}
+.kicker{font-size:.78rem;text-transform:uppercase;letter-spacing:1.5px;color:#9a6b24;font-weight:700}
+.timeline{border-left:3px solid #d7b46a;padding-left:24px}
+.timeline article{margin:0 0 25px;position:relative}.timeline article:before{content:"";position:absolute;left:-33px;top:7px;width:13px;height:13px;border-radius:50%;background:#8b1e1e;border:3px solid #f5e6c5}
+.quote{border-left:5px solid var(--accent2);background:#faf7f0;padding:18px 22px;border-radius:10px;margin:20px 0}
+footer{background:#20242a;color:#dbe2ea;padding:35px 7vw}.members{columns:2;max-width:700px}
+.small{font-size:.92rem;color:var(--muted)}
+.badge{display:inline-block;background:#f4e8d0;color:#6e4c16;padding:5px 10px;border-radius:999px;font-size:.8rem;font-weight:700}
+.cover-art{height:240px;border-radius:20px;margin:24px 0;background:
+radial-gradient(circle at 18% 35%,#fff6 0 5%,transparent 6%),
+linear-gradient(135deg,#6d1717,#9b2424 48%,#c99642);display:flex;align-items:center;justify-content:center;color:#fff;font-family:Georgia,serif;font-size:2rem;text-align:center;padding:30px}
+.refs li{margin-bottom:9px}
+@media(max-width:650px){header{padding:42px 6vw}.members{columns:1}.hero{padding:25px}}
+
+.retro-space{min-height:520px}
+.blank-area{margin-top:28px;min-height:360px;border:2px dashed #cbd5e1;border-radius:18px;background:#fafbfc;display:flex;align-items:center;justify-content:center;color:#94a3b8;font-size:.85rem;letter-spacing:1.5px}
+.chapter-nav{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}
+.chapter-nav span{padding:7px 11px;border-radius:999px;background:#f3eee4;font-size:.8rem;font-weight:700;color:#6e4c16}
+.stat{font-size:2rem;font-family:Georgia,serif;color:#8b1e1e;margin:5px 0}
+.card ul{padding-left:20px}.card li{margin:7px 0}
+
+.stance-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:22px}.stance{padding:24px;border:1px solid var(--line);border-radius:22px;background:#fff}.stance h3{margin:6px 0 10px}.stance p{margin:0;line-height:1.65}.stance.favor{border-top:5px solid #8d6b2f}.stance.against{border-top:5px solid #7b2430}.source-card{margin-top:18px;padding:20px 22px;border:1px solid var(--line);border-radius:18px;background:linear-gradient(135deg,#fbf8f1,#fff);display:flex;justify-content:space-between;gap:20px;align-items:center}.source-card h3{margin:5px 0 8px}.source-card p{margin:0;line-height:1.55}.source-tag{font-size:11px;letter-spacing:.12em;font-weight:800;padding:8px 10px;border-radius:999px;background:#eee6d4;white-space:nowrap}.source-list{margin-top:22px;display:grid;gap:10px}.source-mini{padding:15px 18px;border:1px solid var(--line);border-radius:15px;background:#fff;display:flex;gap:12px;align-items:baseline}.source-mini span{color:#5d5d5d}.source-mini b{min-width:220px}@media(max-width:760px){.stance-grid{grid-template-columns:1fr}.source-card{display:block}.source-tag{display:inline-block;margin-top:12px}.source-mini{display:block}.source-mini b{display:block;margin-bottom:5px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="tag">Universidad Científica del Sur · Realidad Nacional</div>
+  <h1>Perú: Entre Cambios, Poder y Memoria</h1>
+  <p>Un recorrido por los inicios de la República, la tensión entre democracia y autoritarismo, las bonanzas económicas y la corrupción, y la memoria de las violaciones a los derechos humanos.</p>
+</header>
+<nav>
+<button class="active" onclick="showPage('inicio',this)">01 Introducción</button>
+<button onclick="showPage('c1',this)">02 Sesión 01</button>
+<button onclick="showPage('c2',this)">Sesión 02</button>
+<button onclick="showPage('c3',this)">Sesión 03</button>
+<button onclick="showPage('c4',this)">Sesión 04</button>
+<button onclick="showPage('equipo',this)">05 Equipo y fuentes</button>
+<button onclick="showPage('retro',this)">03 Retroalimentación</button>
+</nav>
+<main>
+
+<section id="inicio" class="page active">
+<div class="hero">
+<span class="badge">Proyecto grupal · 2026</span>
+<h2>Introducción</h2>
+<p>La historia republicana del Perú no puede entenderse solo como una sucesión de cambios. La independencia significó la creación de un gobierno propio, pero varias estructuras heredadas del Virreinato continuaron presentes. A lo largo del tiempo también aparecieron avances, etapas autoritarias, períodos de crecimiento económico y graves problemas de corrupción y derechos humanos.</p>
+<div class="cover-art">REPÚBLICA · DEMOCRACIA · ECONOMÍA · MEMORIA</div>
+<p>Este sitio reúne lo trabajado durante las semanas 1 a 4. Cada sesión parte de los conceptos, argumentos, ejemplos históricos y conclusiones desarrollados por el equipo en las guías de discusión.</p>
+</div>
+
+<div class="hero">
+<h3>Mapa del recorrido</h3>
+<div class="grid">
+<div class="card"><div class="kicker">01</div><h3>Construcción republicana</h3><p>¿Qué cambió y qué permaneció?</p></div>
+<div class="card"><div class="kicker">02</div><h3>Instituciones políticas</h3><p>¿Dónde aparece la tensión democracia–autoritarismo?</p></div>
+<div class="card"><div class="kicker">03</div><h3>Riqueza y desarrollo</h3><p>¿Por qué una bonanza no garantiza bienestar?</p></div>
+<div class="card"><div class="kicker">04</div><h3>Memoria y derechos</h3><p>¿Cómo se enfrenta una historia de violencia?</p></div>
+</div>
+</div>
+<div class="grid">
+<div class="card"><div class="kicker">Semana 01 · 20/08/2026</div><h3>La República peruana en sus inicios</h3><p>Transformaciones políticas después de la independencia y permanencia de estructuras coloniales.</p></div>
+<div class="card"><div class="kicker">Semana 02 · 27/08/2026</div><h3>Democracia y autoritarismo</h3><p>La tensión entre instituciones democráticas, reformas y concentración del poder.</p></div>
+<div class="card"><div class="kicker">Semana 03 · 05/09/2026</div><h3>Prosperidad económica y corrupción</h3><p>Bonanzas, recursos naturales, redistribución y gestión pública.</p></div>
+<div class="card"><div class="kicker">Semana 04 · 12/09/2026</div><h3>Derechos humanos y CVR</h3><p>Violencia política, memoria, justicia y dificultades de implementación.</p></div>
+</div>
+</section>
+
+<section id="c1" class="page">
+<div class="hero">
+<div class="kicker">Capítulo 01 · Sesión 01 · Semana 1</div><h2>La República peruana en sus inicios</h2>
+<p>La independencia abrió una nueva etapa política, pero no produjo una ruptura total con el pasado colonial. El proceso combinó cambios importantes con permanencias sociales, económicas y culturales.</p>
+</div>
+<div class="grid">
+<div class="card"><h3>¿Qué cambió?</h3><p>La República buscó establecer una ciudadanía basada en principios de libertad e igualdad. En 1854, durante el gobierno de Ramón Castilla, se abolieron la esclavitud y el tributo indígena.</p></div>
+<div class="card"><h3>¿Qué permaneció?</h3><p>Las desigualdades no desaparecieron de inmediato. La población indígena continuó enfrentando dificultades sociales y económicas. Además, la Iglesia conservó una fuerte presencia en la educación, las costumbres y la vida cotidiana.</p></div>
+<div class="card"><h3>Un retroceso</h3><p>En 1826 se volvió a establecer la contribución indígena, heredada del antiguo tributo colonial. Esto mantuvo una estructura fiscal diferenciada y dificultó una transformación completa del nuevo Estado.</p></div>
+</div>
+
+<div class="grid">
+<div class="card"><div class="stat">1826</div><p>La contribución indígena volvió a establecerse, mostrando la permanencia de una estructura fiscal diferenciada.</p></div>
+<div class="card"><div class="stat">1854</div><p>Ramón Castilla abolió la esclavitud y el tributo indígena, un cambio relevante frente al orden colonial.</p></div>
+<div class="card"><div class="stat">2 caras</div><p>La transición republicana combinó reformas políticas con continuidades sociales, económicas y culturales.</p></div>
+</div>
+<div class="stance-grid">
+<div class="stance favor"><div class="kicker">POSTURA A FAVOR</div><h3>La República sí significó un avance</h3><p>La independencia abrió un marco político distinto al colonial y permitió impulsar medidas que ampliaron la libertad y la igualdad jurídica. El ejemplo más claro es 1854: Ramón Castilla abolió la esclavitud y la contribución indígena. Por eso, puede sostenerse que existieron cambios reales y relevantes.</p></div>
+<div class="stance against"><div class="kicker">POSTURA EN CONTRA</div><h3>El cambio fue incompleto</h3><p>La ruptura con el orden colonial no fue total. La reposición de la contribución indígena en 1826 y la permanencia de desigualdades sociales y de la influencia de la Iglesia muestran que varias estructuras continuaron. Por eso, la República no puede presentarse como una transformación completa.</p></div>
+</div>
+<div class="source-card"><div><div class="kicker">FUENTE PERTINENTE · 01</div><h3>Decreto de 5 de julio de 1854 — Congreso de la República</h3><p>Sirve para sustentar la postura favorable: el decreto justifica la eliminación de la contribución indígena y la relaciona con los principios de libertad e igualdad.</p></div><span class="source-tag">SUSTENTACIÓN</span></div>
+<div class="quote"><strong>Postura del equipo:</strong> la formación de la República debe entenderse como un avance importante, pero incompleto: hubo transformaciones políticas y jurídicas, mientras varias desigualdades y estructuras heredadas continuaron.</div>
+</section>
+
+<section id="c2" class="page">
+<div class="hero">
+<div class="kicker">Capítulo 01 · Sesión 02 · Semana 2</div><h2>Democracia y autoritarismo en la República Peruana</h2>
+<p>El desarrollo político peruano ha estado marcado por una tensión constante entre la construcción democrática y períodos en los que el poder se concentró y se limitaron instituciones o libertades.</p>
+</div>
+<div class="grid">
+<div class="card"><h3>Democracia</h3><p>No se reduce a votar. Implica elecciones, derechos, libertades civiles, separación de poderes, respeto de las reglas, pluralismo y posibilidad de alternancia.</p></div>
+<div class="card"><h3>Autoritarismo</h3><p>Se caracteriza por la concentración del poder, límites débiles a la autoridad, restricciones a la oposición y reducción de controles institucionales.</p></div>
+<div class="card"><h3>Velasco</h3><p>La Reforma Agraria de 1969 redujo el poder del sistema de haciendas y benefició a campesinos. Sin embargo, el gobierno llegó mediante el golpe de 1968, disolvió el Congreso y restringió la prensa.</p></div>
+<div class="card"><h3>Fujimori</h3><p>Las reformas de los años noventa se relacionaron con la estabilización económica y la lucha contra el terrorismo, pero el autogolpe de 1992 disolvió el Congreso e intervino instituciones, acompañado de control y manipulación de medios.</p></div>
+</div>
+
+<div class="card">
+<h3>¿Qué debemos observar para evaluar una democracia?</h3>
+<div class="chapter-nav"><span>Elecciones</span><span>Derechos</span><span>Separación de poderes</span><span>Reglas</span><span>Pluralismo</span><span>Alternancia</span></div>
+<p>La guía propone mirar el funcionamiento de las instituciones y no solamente el resultado de una reforma. Por eso, los cambios de Velasco y Fujimori se analizan junto con las rupturas institucionales que acompañaron sus gobiernos.</p>
+</div>
+<div class="stance-grid">
+<div class="stance favor"><div class="kicker">POSTURA A FAVOR</div><h3>Las reformas respondieron a problemas reales</h3><p>Puede defenderse que las reformas de Velasco y Fujimori buscaron enfrentar problemas concretos: la desigualdad agraria, la crisis económica y la violencia política. La Reforma Agraria redujo el poder de las haciendas y las reformas de los noventa buscaron estabilizar la economía.</p></div>
+<div class="stance against"><div class="kicker">POSTURA EN CONTRA</div><h3>Los resultados no justifican la ruptura democrática</h3><p>Una reforma no convierte automáticamente a un gobierno en democrático. En 1968 se produjo un golpe de Estado y se disolvió el Congreso; en 1992 Fujimori disolvió el Congreso e intervino instituciones. Por eso, los cambios sociales o económicos deben evaluarse junto con el respeto a las reglas democráticas.</p></div>
+</div>
+<div class="source-card"><div><div class="kicker">FUENTE PERTINENTE · 02</div><h3>IDEHPUCP — “Secuelas del golpe del 5 de abril de 1992”</h3><p>Permite sustentar la postura crítica: reconoce que el autoritarismo pudo facilitar decisiones rápidas, pero señala el costo institucional y sus consecuencias sobre la democracia.</p></div><span class="source-tag">SUSTENTACIÓN</span></div>
+<div class="quote"><strong>Postura del equipo:</strong> las reformas pueden reconocerse por sus efectos sociales o económicos, pero no deben confundirse con democratización. Para evaluarlas, primero hay que considerar elecciones, derechos, separación de poderes, controles y pluralismo.</div>
+</section>
+
+<section id="c3" class="page">
+<div class="hero">
+<div class="kicker">Capítulo 01 · Sesión 03 · Semana 3</div><h2>Prosperidad económica y corrupción</h2>
+<p>El Perú posee recursos y actividades con gran capacidad para generar ingresos, pero las bonanzas económicas no garantizan por sí solas un desarrollo sostenido e inclusivo.</p>
+</div>
+<div class="grid">
+<div class="card"><h3>Recursos y oportunidades</h3><p>La minería, agricultura, pesca, turismo y agroexportación pueden generar empleo, inversión y divisas. La diversidad productiva aparece como una ventaja para el desarrollo.</p></div>
+<div class="card"><h3>La experiencia del guano</h3><p>La bonanza del siglo XIX generó grandes ingresos, pero también convivió con corrupción, desigualdad y una gestión que no consiguió transformar de manera suficiente la economía nacional.</p></div>
+<div class="card"><h3>El problema de la gestión</h3><p>Cuando los recursos públicos son mal administrados o se concentran en determinados grupos, disminuye su capacidad para financiar educación, salud, infraestructura e innovación.</p></div>
+<div class="card"><h3>Desafío actual</h3><p>La actividad extractiva puede ser una oportunidad si sus ingresos se utilizan para diversificar la economía y fortalecer otros sectores, evitando una dependencia permanente de materias primas.</p></div>
+</div>
+
+<div class="grid">
+<div class="card"><h3>Bonanza</h3><p>Aumento importante de ingresos, especialmente asociado al crecimiento de exportaciones.</p></div>
+<div class="card"><h3>Corrupción</h3><p>Uso indebido del poder o de recursos públicos para obtener beneficios particulares.</p></div>
+<div class="card"><h3>Maldición de recursos</h3><p>La abundancia de materias primas puede dificultar la diversificación si no existe una gestión estratégica.</p></div>
+</div>
+<div class="stance-grid">
+<div class="stance favor"><div class="kicker">POSTURA A FAVOR</div><h3>La riqueza natural puede impulsar el desarrollo</h3><p>La abundancia de recursos puede generar ingresos, inversión, empleo y obras públicas. La minería, la agricultura, la pesca, el turismo y la agroexportación ofrecen oportunidades si los excedentes se utilizan para fortalecer otros sectores.</p></div>
+<div class="stance against"><div class="kicker">POSTURA EN CONTRA</div><h3>La bonanza no garantiza bienestar</h3><p>La experiencia del guano muestra que grandes ingresos pueden coexistir con corrupción, endeudamiento y una mala administración. En el presente, una distribución o ejecución deficiente del canon también puede reducir el impacto de la riqueza extractiva sobre la población.</p></div>
+</div>
+<div class="source-card"><div><div class="kicker">FUENTE PERTINENTE · 03</div><h3>Banco Central de Reserva del Perú — “El Banco Central”, tomo histórico</h3><p>Es pertinente para sustentar la postura crítica porque documenta cómo la administración de la abundancia guanera estuvo acompañada de despilfarro, endeudamiento y problemas de gestión pública.</p></div><span class="source-tag">SUSTENTACIÓN</span></div>
+<div class="quote"><strong>Postura del equipo:</strong> el Perú sí puede convertir sus recursos en una ventaja, pero la prosperidad depende de cómo se administren los ingresos. Sin transparencia, redistribución y diversificación, una bonanza puede convertirse en una oportunidad perdida.</div>
+</section>
+
+<section id="c4" class="page">
+<div class="hero">
+<div class="kicker">Capítulo 01 · Sesión 04 · Semana 4</div><h2>Violaciones a los derechos humanos y el Informe de la CVR</h2>
+<p>La violencia política de 1980–2000 dejó una profunda huella en la sociedad peruana. El trabajo del equipo aborda casos emblemáticos, memoria, justicia, reparaciones y las distintas reacciones frente al Informe Final de la Comisión de la Verdad y Reconciliación.</p>
+</div>
+<div class="grid">
+<div class="card"><h3>Barrios Altos · 1991</h3><p>El trabajo identifica este caso como una ejecución extrajudicial atribuida al Grupo Colina, en la que murieron quince personas, incluido un niño.</p></div>
+<div class="card"><h3>La Cantuta · 1992</h3><p>Nueve estudiantes y un profesor fueron secuestrados y posteriormente ejecutados por integrantes del Grupo Colina.</p></div>
+<div class="card"><h3>Los Cabitos</h3><p>El caso abordado en la guía incluye detenciones clandestinas, torturas y desapariciones, además de trabajos forenses para identificar restos.</p></div>
+<div class="card"><h3>Putis · 1984</h3><p>La guía presenta la masacre de Putis como uno de los casos de violencia contra población civil durante el conflicto.</p></div>
+</div>
+
+<div class="card">
+<h3>Conceptos clave</h3>
+<div class="chapter-nav"><span>Derechos humanos</span><span>CVR</span><span>Memoria histórica</span><span>Justicia</span><span>Reparación</span><span>Transición</span></div>
+</div>
+<div class="quote"><strong>Memoria y justicia:</strong> el equipo identifica avances como el Registro Único de Víctimas, reparaciones, espacios de memoria y procesos judiciales, pero también señala que persisten dificultades institucionales, forenses y políticas para completar las recomendaciones.</div>
+<div class="card">
+<h3>Una discusión abierta</h3>
+<p>Las guías muestran posiciones diferentes dentro del propio equipo sobre la respuesta de la clase política y las Fuerzas Armadas al Informe de la CVR. Por eso, el tema se presenta como un debate argumentado: hubo cuestionamientos y resistencias de determinados sectores, pero también instituciones y autoridades que reconocieron o defendieron parte de sus conclusiones.</p>
+</div>
+<div class="stance-grid">
+<div class="stance favor"><div class="kicker">POSTURA A FAVOR</div><h3>La CVR fue necesaria para conocer y enfrentar la violencia</h3><p>El Informe Final permitió documentar patrones de violencia, identificar víctimas y formular recomendaciones vinculadas con verdad, justicia, reparaciones y reformas. Desde esta postura, reconocer lo ocurrido es una condición para construir memoria y evitar la repetición.</p></div>
+<div class="stance against"><div class="kicker">POSTURA EN CONTRA / CRÍTICA</div><h3>La implementación ha sido insuficiente y genera debate</h3><p>La existencia del Informe no significa que todas sus recomendaciones hayan sido cumplidas. Persisten discusiones sobre reparaciones, identificación de desaparecidos, justicia y memoria. Además, distintos sectores cuestionaron aspectos de la CVR, por lo que su recepción política debe analizarse críticamente.</p></div>
+</div>
+<div class="source-card"><div><div class="kicker">FUENTE PERTINENTE · 04</div><h3>Comisión de la Verdad y Reconciliación — Informe Final</h3><p>Es la fuente central para sustentar el capítulo: documenta la dimensión del conflicto, las violaciones de derechos humanos y las recomendaciones de verdad, justicia y reparación.</p></div><span class="source-tag">SUSTENTACIÓN</span></div>
+<div class="quote"><strong>Postura del equipo:</strong> la CVR constituye una referencia indispensable para comprender la violencia política, pero su legado debe analizarse también desde los avances, las limitaciones y las controversias que han acompañado su implementación.</div>
+</section>
+
+
+<section id="equipo" class="page">
+<div class="hero">
+<div class="kicker">Sección especial</div><h2>Equipo y fuentes</h2>
+<p>Este espacio reúne la información general del proyecto y las fuentes de trabajo utilizadas para desarrollar los cuatro capítulos.</p>
+</div>
+<div class="grid">
+<div class="card"><h3>Universidad</h3><p><strong>Universidad Científica del Sur</strong><br>Curso: Realidad Nacional<br>Docente: Cenepo Gutierrez, Auroni</p></div>
+<div class="card"><h3>Proyecto</h3><p>Recorrido histórico y crítico por la República peruana a partir de los contenidos trabajados en las sesiones 01, 02, 03 y 04.</p></div>
+</div>
+<div class="hero">
+<h3>Integrantes del equipo</h3>
+<div class="members">
+<p><strong>01.</strong> Casado Ramírez, Bryan Alexis</p>
+<p><strong>02.</strong> Pantoja Mallqui, Carlos Leandro</p>
+<p><strong>03.</strong> Reyes Aguila, Syndell Nazare</p>
+<p><strong>04.</strong> Salazar Chevez, Valeria Fernanda</p>
+<p><strong>05.</strong> Zavala Tasayco, Kiara Jazmine</p>
+</div>
+</div>
+<div class="card refs">
+<h3>Fuentes de trabajo</h3>
+<ol>
+<li><strong>Sesión 01.</strong> La República Peruana en sus inicios. Guía de discusión grupal, 20/08/2026.</li>
+<li><strong>Sesión 02.</strong> Democracia y autoritarismo en la República Peruana. Guía de discusión grupal, 27/08/2026.</li>
+<li><strong>Sesión 03.</strong> Prosperidad económica y corrupción. Guía de discusión grupal, 05/09/2026.</li>
+<li><strong>Sesión 04.</strong> Violaciones a los derechos humanos y el Informe de la CVR. Guía de discusión grupal, 12/09/2026.</li>
+</ol>
+<p class="small">La información presentada en este sitio fue reorganizada y redactada nuevamente a partir de los cuatro documentos proporcionados para el proyecto.</p>
+</div>
+</section>
+
+<div class="source-list">
+<div class="kicker">LAS 4 FUENTES QUE NOMBRAMOS EN LA SUSTENTACIÓN</div>
+<div class="source-mini"><b>01 · Congreso de la República</b><span>Decreto de 5 de julio de 1854 — abolición de la contribución indígena.</span></div>
+<div class="source-mini"><b>02 · IDEHPUCP</b><span>“Secuelas del golpe del 5 de abril de 1992” — democracia y autoritarismo.</span></div>
+<div class="source-mini"><b>03 · BCRP</b><span>“El Banco Central” — administración de la abundancia guanera y endeudamiento.</span></div>
+<div class="source-mini"><b>04 · CVR</b><span>Informe Final — violencia política, víctimas, memoria, justicia y reparaciones.</span></div>
+</div>
+
+<section id="retro" class="page">
+<div class="hero retro-space">
+<div class="kicker">03 · Retroalimentación</div>
+<h2>Retroalimentación del otro grupo</h2>
+<p>Las siguientes observaciones fueron sintetizadas para conservar los aportes principales de la revisión sin sobrecargar el espacio del weblog.</p>
+
+<div class="grid">
+<div class="card"><div class="kicker">Sesión 01</div><h3>República en sus inicios</h3><p>Precisar la cronología de la abolición de la esclavitud y del tributo indígena, diferenciando ambos procesos y sus antecedentes. Profundizar en las consecuencias para la población afrodescendiente y analizar también la situación de las mujeres indígenas y rurales, considerando cómo las desigualdades variaron según grupo étnico, género y ubicación geográfica.</p></div>
+
+<div class="card"><div class="kicker">Sesión 02</div><h3>Democracia y autoritarismo</h3><p>Aplicar de forma sistemática indicadores como reglas institucionales, legitimidad del adversario, rechazo de la violencia, libertades civiles, controles, pluralismo y alternancia al comparar los gobiernos de Velasco y Fujimori. También se sugiere relacionar lo trabajado con la coyuntura actual y plantear propuestas para fortalecer el sistema electoral, la representación y los partidos.</p></div>
+
+<div class="card"><div class="kicker">Sesión 03</div><h3>Prosperidad económica y corrupción</h3><p>Incorporar datos cuantitativos sobre crecimiento del PBI, canon y condiciones de desigualdad, educación y servicios en zonas mineras. Comparar de manera más sistemática la bonanza del guano con el auge minero reciente y plantear medidas de diversificación productiva, fortalecimiento institucional y redistribución territorial.</p></div>
+
+<div class="card"><div class="kicker">Sesión 04</div><h3>Derechos humanos y CVR</h3><p>Actualizar los datos sobre el Plan Integral de Reparaciones, víctimas registradas, recursos destinados y personas desaparecidas aún no identificadas. Diferenciar recomendaciones implementadas, parcialmente avanzadas y pendientes, y precisar qué sectores cuestionaron o respaldaron las conclusiones y recomendaciones de la CVR.</p></div>
+</div>
+
+<div class="quote"><strong>Observación general de forma:</strong> presentar las cuatro fuentes de manera completa según APA 7, incluyendo autor o institución, año, título, entidad o editorial y enlace cuando corresponda. También diferenciar las guías de discusión internas de las fuentes académicas, institucionales o documentales externas.</div>
+
+</div>
+</section>
+
+</main>
+<footer><strong>Realidad Nacional · Proyecto grupal 2026</strong><br>Universidad Científica del Sur · Proyecto desarrollado a partir de las sesiones 01–04</footer>
+<script>
+function showPage(id,btn){
+ document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+ document.getElementById(id).classList.add('active');
+ document.querySelectorAll('nav button').forEach(b=>b.classList.remove('active'));
+ btn.classList.add('active');
+ window.scrollTo({top:0,behavior:'smooth'});
+}
+</script>
+</body>
+</html>
